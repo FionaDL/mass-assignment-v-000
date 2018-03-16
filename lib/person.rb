@@ -7,6 +7,7 @@ class Person
     hash.each do |key, value|
       self.send(("#{key}="), value)
     end
+  end
 
   #your code here
 end
